@@ -1,22 +1,64 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+.head {
+  background-color: #CC9933;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.eye {
+  border-radius: 50%;
+  width: 50px;
+  height: 30px;
+  background: #f2f2f2;
+  display: inline-block;
+  margin-top: 40%;
 }
 
-#container{
-  
-  background-color:red;
-  height:200px;
-  width:200px;
-  text-align:center;
-  
-    
-  
+.right-eye {
+  margin-left: 20px;
+}
+
+.left-eye {
+  margin-left: 70px;
+}
+.pupil {
+  width: 20px;
+  height: 20px;
+  background: black;
+  margin: 2px auto;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+}
+
+.mouth {
+  width: 40%;
+  height: 30px;
+  background: white;
+  border-style: solid;
+  border-color: #CC3300;
+  border-width: 20px 5px 10px 5px;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 1px;
+}
+
+.teeth {
+  display: inline-block;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  width: 10px;
+  height: 10px;
+  margin-left: -2px;
+  margin-bottom: 2px;
 }
