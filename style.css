@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 .head {
-  background-color: #CC9933;
+  background-color: #FF0099;
   border-style: solid;
   border-color: white;
   border-radius: 50%;
@@ -45,7 +45,7 @@
   height: 30px;
   background: white;
   border-style: solid;
-  border-color: #CC3300;
+  border-color: #33CCFF;
   border-width: 20px 5px 10px 5px;
   border-radius: 20px;
   margin: 30px auto;
