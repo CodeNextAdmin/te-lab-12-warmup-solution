@@ -82,13 +82,18 @@
   transform: translate(-50%, -50%);
   
   border-radius:50%;
-  background:#ffeb78;
+  background:#d4d3cf;
   
   width: 80px;
   height: 85px;
 }
 
+.lightbulb:hover{
+  background: #ffe54f;
+}
+
 .lightbulb p{
+  margin-bottom:15px;
   text-align: center;
   font-family: arial;
   font-size: 2em;
