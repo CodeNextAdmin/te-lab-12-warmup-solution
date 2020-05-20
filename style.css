@@ -78,7 +78,7 @@
 .lightbulb{
   position: absolute;
   left: 80%;
-  top: 20%;
+  top: 25%;
   transform: translate(-50%, -50%);
   
   border-radius:50%;
@@ -86,4 +86,22 @@
   
   width: 80px;
   height: 85px;
+}
+
+.lightbulb p{
+  text-align: center;
+  font-family: arial;
+  font-size: 2em;
+  color: grey;
+}
+
+.cap{
+  border: 1px white solid;
+  border-radius: 3px;
+  margin-left:18px;
+  
+  background: grey;
+  
+  width: 50%;
+  height:10%;
 }
