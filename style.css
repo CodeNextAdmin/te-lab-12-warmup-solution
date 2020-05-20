@@ -1,76 +1,61 @@
 /* CSS files add styling rules to your content */
 
 .head {
-  background-color: #F2CF66;
-  border-style: solid;
-  border-color: white;
-  border-radius: 50%;
-
-  width: 250px;
-  height: 260px;
+  /*Positions the head relative to the body*/
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  
+  /*Sets the color of the container and rounds the corners*/
+  background-color: #F2CF66;
+  border-radius: 50%;
+
+  /*Sets the size of the container*/
+  width: 250px;
+  height: 260px;
 }
 
 .eye {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  background: white;
+  /*Allows the containers to be side by side*/
   display: inline-block;
+  
+  /*Positions the eyes relative to the closest positioned element, in this case the head*/
+  border-radius: 50%;
   margin-top: 30%;
   margin-left: 30px;
+  
+  background: white;
+  
+  height: 80px;
+  width: 80px; 
 }
 
 .pupil {
+  border-radius:50%;
+  margin: 3px 40px;
+  
+  background: black;
+  
   width: 25px;
   height: 25px;
-  background: black;
-  margin: 3px 40px;
-  border-radius:50%;
-
 }
 
 .mouth {
-  position: absolute;
+  /*Hides and parts of children elements that extend past the size of the parent element*/
+  overflow: hidden;
+  
+  border-radius: 0 0 70px 70px;  
+  margin: 10px 80px;
+  
+  background: black;
+  
   width: 40%;
   height: 20%;
-  z-index: 1;
-  border-radius: 0 0 70px 70px;
-  overflow: hidden;
-  margin: 10px 80px;
-  background: black;
 }
-/* .mouth:before,
-.mouth:after {
-  content: '';
-  position: absolute;
-  display: block;
-}
-.mouth.teeth::before {
-  width: 100%;
-  height: 20px;
-  z-index: 2;
-  background: white;
-}
-
-.mouth.tongue:after {
-  position: absolute;
-  width: 50px;
-  height: 38px;
-  left: 0;
-  right: 0;
-  top: 30px;
-  margin: 0 auto;
-  border-radius: 50%;
-  background: #f54e42;
-} */
 
 .mouth{
   position: absolute;
-  display: block;
 }
 .teeth {
   width: 100%;
@@ -82,9 +67,8 @@
   position: absolute;
   width: 50px;
   height: 38px;
-  left: 0;
-  right: 0;
-  top: 30px;
-  margin: 0 auto;
+
+  margin: 10px 25px;
   border-radius: 50%;
   background: #f54e42;
+}
