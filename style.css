@@ -34,19 +34,43 @@
 
 }
 
-.mouth {
+/* .mouth {
   width: 40%;
   height: 20%;
   background: black;
-  border-style: solid;
-  border-color: #BF4A30;
+/*   border-style: solid; */
+/*   border-color: #BF4A30; */
   border-radius: 10px 10px 200px 200px;
   margin: 10px auto;
+  overflow:hidden;
+    z-index: 1;
+} */
+
+.mouth {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  z-index: 1;
+  border-radius: 0 0 70px 70px;
+  overflow: hidden;
+  background: black;
 }
 
-.mouth.teeth:before {
+.mouth.teeth::before {
   width: 100%;
   height: 10px;
   z-index: 2;
-  background: #fffae6;
+  background: white;
+}
+
+.mouth.tongue:after {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 0;
+  right: 0;
+  top: 15px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #d8aa2b;
 }
