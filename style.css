@@ -2,6 +2,7 @@ body{
   font-family: sans-serif;
   font-size: 13px;
   text-align: center;
+  color: navy;
 }
 
 .Nav_Bar {
@@ -18,21 +19,40 @@ body{
 
   /*Sets the size of the container*/
   width: 300px;
-  height: 60px;
+  height: 100px;
 }
 
 .item {
-  position: absolute;
+  display: inline-block;
   overflow: hidden;
   left: 20%;
-  top: 20%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translate(-50%, -30%);
   
   /*Sets the color of the container and rounds the corners*/
   background-color: gold;
   border-radius: 5%;
 
   /*Sets the size of the container*/
+  margin: 5px;
   width: 50px;
+  height: 40px;
+}
+
+.search {
+  overflow: hidden;
+  left: 70%;
+  top: 50%;
+  transform: translate(17%, -30%);
+  
+  /*Sets the color of the container and rounds the corners*/
+  background-color: white;
+  border-radius: 5%;
+  color: gray;
+  font-style: italic;
+
+  /*Sets the size of the container*/
+  margin: 5px;
+  width: 180px;
   height: 40px;
 }
