@@ -40,10 +40,10 @@ body{
 }
 
 .search {
-  overflow: hidden;
+  display: inline-block;
   left: 70%;
   top: 50%;
-  transform: translate(17%, -30%);
+  transform: translate(-10%, -30%);
   
   /*Sets the color of the container and rounds the corners*/
   background-color: white;
