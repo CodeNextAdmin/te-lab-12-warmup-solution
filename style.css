@@ -1,15 +1,38 @@
-.head {
+body{
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.Nav_Bar {
   /*Positions the head relative to the body*/
   position: absolute;
+  overflow: hidden;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   
   /*Sets the color of the container and rounds the corners*/
-  background-color: #F2CF66;
-  border-radius: 50%;
+  background-color: navy;
+  border-radius: 0%;
 
   /*Sets the size of the container*/
-  width: 250px;
-  height: 260px;
+  width: 300px;
+  height: 60px;
+}
+
+.item {
+  position: absolute;
+  overflow: hidden;
+  left: 20%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  
+  /*Sets the color of the container and rounds the corners*/
+  background-color: gold;
+  border-radius: 5%;
+
+  /*Sets the size of the container*/
+  width: 50px;
+  height: 40px;
 }
